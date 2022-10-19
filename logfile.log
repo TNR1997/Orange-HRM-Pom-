@@ -1,0 +1,634 @@
+2022-10-18 22:31:52,090 INFO  [Log] Application Opened 
+2022-10-18 22:31:57,109 INFO  [Log] Login Complted 
+2022-10-18 22:34:40,792 INFO  [Log] Application Opened 
+2022-10-18 22:34:45,785 INFO  [Log] Login Complted 
+2022-10-18 22:36:52,811 INFO  [Log] Application Opened 
+2022-10-18 22:36:58,266 INFO  [Log] Login Complted 
+2022-10-18 22:38:48,499 INFO  [Log] Application Opened 
+2022-10-18 22:38:53,555 INFO  [Log] Login Complted 
+2022-10-18 22:40:52,217 INFO  [Log] Application Opened 
+2022-10-18 22:40:57,267 INFO  [Log] Login Complted 
+2022-10-19 15:17:29,635 INFO  [Log] Application Opened 
+2022-10-19 15:17:34,721 INFO  [Log] Login Complted 
+2022-10-19 15:17:50,436 INFO  [Log] Employee Details added 
+2022-10-19 15:17:50,948 INFO  [Log] Logout Completed 
+2022-10-19 15:17:52,143 INFO  [Log] Application Closed 
+2022-10-19 15:20:33,045 INFO  [Log] Application Opened 
+2022-10-19 15:20:38,097 INFO  [Log] Login Complted 
+2022-10-19 15:20:53,455 INFO  [Log] Employee Details added 
+2022-10-19 15:21:10,180 INFO  [Log] Education details added 
+2022-10-19 15:21:10,440 INFO  [Log] Logout Completed 
+2022-10-19 15:21:11,539 INFO  [Log] Application Closed 
+2022-10-19 15:25:58,211 INFO  [Log] Application Opened 
+2022-10-19 15:26:03,214 INFO  [Log] Login Complted 
+2022-10-19 15:26:18,915 INFO  [Log] Employee Details added 
+2022-10-19 15:26:19,363 INFO  [Log] Logout Completed 
+2022-10-19 15:26:20,598 INFO  [Log] Application Closed 
+2022-10-19 15:26:25,454 INFO  [Log] Application Opened 
+2022-10-19 15:26:30,430 INFO  [Log] Login Complted 
+2022-10-19 15:26:45,240 INFO  [Log] Employee Details added 
+2022-10-19 15:27:03,304 INFO  [Log] Education details added 
+2022-10-19 15:27:03,841 INFO  [Log] Logout Completed 
+2022-10-19 15:27:05,075 INFO  [Log] Application Closed 
+2022-10-19 15:27:09,724 INFO  [Log] Application Opened 
+2022-10-19 15:27:14,807 INFO  [Log] Login Complted 
+2022-10-19 15:27:29,719 INFO  [Log] Employee Details added 
+2022-10-19 15:27:42,061 INFO  [Log] Salary details saved 
+2022-10-19 15:27:42,537 INFO  [Log] Logout Completed 
+2022-10-19 15:27:43,705 INFO  [Log] Application Closed 
+2022-10-19 15:27:48,530 INFO  [Log] Application Opened 
+2022-10-19 15:27:53,543 INFO  [Log] Login Complted 
+2022-10-19 15:28:08,679 INFO  [Log] Employee Details added 
+2022-10-19 15:28:30,059 INFO  [Log] work experience details added 
+2022-10-19 15:28:30,306 INFO  [Log] Logout Completed 
+2022-10-19 15:28:31,516 INFO  [Log] Application Closed 
+2022-10-19 15:28:36,121 INFO  [Log] Application Opened 
+2022-10-19 15:28:41,187 INFO  [Log] Login Complted 
+2022-10-19 15:29:05,564 INFO  [Log] Emp Records Deleted 
+2022-10-19 15:29:06,056 INFO  [Log] Logout Completed 
+2022-10-19 15:29:07,255 INFO  [Log] Application Closed 
+2022-10-19 15:29:11,923 INFO  [Log] Application Opened 
+2022-10-19 15:29:16,917 INFO  [Log] Login Complted 
+2022-10-19 15:29:27,644 INFO  [Log] Emp Details Search Cleared 
+2022-10-19 15:29:28,110 INFO  [Log] Logout Completed 
+2022-10-19 15:29:29,276 INFO  [Log] Application Closed 
+2022-10-19 15:29:33,935 INFO  [Log] Application Opened 
+2022-10-19 15:29:38,895 INFO  [Log] Login Complted 
+2022-10-19 15:29:40,940 INFO  [Log] Here All Links: 
+2022-10-19 15:29:41,021 INFO  [Log] 2-javascript:chgPage(2); 
+2022-10-19 15:29:41,104 INFO  [Log] 3-javascript:chgPage(3); 
+2022-10-19 15:29:41,192 INFO  [Log] 4-javascript:chgPage(4); 
+2022-10-19 15:29:41,279 INFO  [Log] 5-javascript:chgPage(5); 
+2022-10-19 15:29:41,412 INFO  [Log] 6-javascript:chgPage(6); 
+2022-10-19 15:29:41,576 INFO  [Log] Next-javascript:nextPage(); 
+2022-10-19 15:29:41,678 INFO  [Log] Last-javascript:chgPage(72); 
+2022-10-19 15:29:41,777 INFO  [Log] Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:41,870 INFO  [Log] Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:41,952 INFO  [Log] Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:42,033 INFO  [Log] Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:42,118 INFO  [Log] Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:42,191 INFO  [Log] Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 15:29:42,266 INFO  [Log] priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,333 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,402 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,474 INFO  [Log] suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,547 INFO  [Log] Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,614 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,677 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,743 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,809 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,877 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:42,946 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,029 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,093 INFO  [Log] saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,157 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,224 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,292 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,354 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,425 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,489 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,553 INFO  [Log] Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,619 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,680 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,742 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,811 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,873 INFO  [Log] selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:43,937 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,001 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,065 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,136 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,201 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,257 INFO  [Log] Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,330 INFO  [Log] Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,423 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,532 INFO  [Log] naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,611 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,685 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,752 INFO  [Log] rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,831 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,903 INFO  [Log] Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:44,975 INFO  [Log] selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,048 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,122 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,182 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,248 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,306 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,373 INFO  [Log] ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,437 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,501 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,560 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:45,624 INFO  [Log] vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 15:29:47,661 INFO  [Log] All Links Restored 
+2022-10-19 15:29:47,899 INFO  [Log] Logout Completed 
+2022-10-19 15:29:49,060 INFO  [Log] Application Closed 
+2022-10-19 15:29:53,527 INFO  [Log] Application Opened 
+2022-10-19 15:29:58,524 INFO  [Log] Login Complted 
+2022-10-19 15:30:00,611 INFO  [Log] -Select- 
+2022-10-19 15:30:00,633 INFO  [Log] Emp. ID 
+2022-10-19 15:30:00,653 INFO  [Log] Emp. First Name 
+2022-10-19 15:30:00,679 INFO  [Log] Emp. Last Name 
+2022-10-19 15:30:00,701 INFO  [Log] Emp. Middle Name 
+2022-10-19 15:30:00,720 INFO  [Log] Job Title 
+2022-10-19 15:30:00,740 INFO  [Log] Employment status 
+2022-10-19 15:30:00,762 INFO  [Log] Sub-Division 
+2022-10-19 15:30:00,782 INFO  [Log] Supervisor 
+2022-10-19 15:30:02,823 INFO  [Log] All Options Retrieved 
+2022-10-19 15:30:03,194 INFO  [Log] Logout Completed 
+2022-10-19 15:30:04,322 INFO  [Log] Application Closed 
+2022-10-19 15:30:08,804 INFO  [Log] Application Opened 
+2022-10-19 15:30:13,780 INFO  [Log] Login Complted 
+2022-10-19 15:30:29,224 INFO  [Log] Employee Details added 
+2022-10-19 15:30:56,999 INFO  [Log] Personal details Added 
+2022-10-19 15:30:57,243 INFO  [Log] Logout Completed 
+2022-10-19 15:30:58,406 INFO  [Log] Application Closed 
+2022-10-19 15:31:03,138 INFO  [Log] Application Opened 
+2022-10-19 15:31:08,468 INFO  [Log] Login Complted 
+2022-10-19 15:31:23,560 INFO  [Log] Employee Details added 
+2022-10-19 15:31:32,381 INFO  [Log] Software Tester Selected 
+2022-10-19 15:31:34,926 INFO  [Log] Software Selected 
+2022-10-19 15:31:39,580 INFO  [Log] NareshIT Selected 
+2022-10-19 15:31:47,833 INFO  [Log] Job Details Added 
+2022-10-19 15:31:50,090 INFO  [Log] Logout Completed 
+2022-10-19 15:31:51,325 INFO  [Log] Application Closed 
+2022-10-19 15:31:56,324 INFO  [Log] Application Opened 
+2022-10-19 15:32:01,363 INFO  [Log] Login Complted 
+2022-10-19 15:32:14,067 INFO  [Log] Year 2022 Selected 
+2022-10-19 15:32:16,119 INFO  [Log] All Employees Selected 
+2022-10-19 15:32:18,161 INFO  [Log] All Selected 
+2022-10-19 15:32:21,473 INFO  [Log] Employee Leave Status Page Displayed 
+2022-10-19 15:32:23,732 INFO  [Log] Logout Completed 
+2022-10-19 15:32:24,984 INFO  [Log] Application Closed 
+2022-10-19 15:32:29,594 INFO  [Log] Application Opened 
+2022-10-19 15:32:34,475 INFO  [Log] Login Complted 
+2022-10-19 15:32:55,964 INFO  [Log] Full day selected 
+2022-10-19 15:32:58,699 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 15:33:01,224 INFO  [Log] Logout Completed 
+2022-10-19 15:33:02,582 INFO  [Log] Application Closed 
+2022-10-19 15:33:07,027 INFO  [Log] Application Opened 
+2022-10-19 15:33:11,926 INFO  [Log] Login Complted 
+2022-10-19 15:33:29,489 INFO  [Log] Logout Completed 
+2022-10-19 15:33:30,591 INFO  [Log] Application Closed 
+2022-10-19 15:33:35,490 INFO  [Log] Application Opened 
+2022-10-19 15:33:40,528 INFO  [Log] Login Complted 
+2022-10-19 15:33:47,090 INFO  [Log] DayOff Page Opened-The total number of applied leave should be zero to change the weekends message is Displayed 
+2022-10-19 15:33:47,569 INFO  [Log] Logout Completed 
+2022-10-19 15:33:48,692 INFO  [Log] Application Closed 
+2022-10-19 15:33:53,006 INFO  [Log] Application Opened 
+2022-10-19 15:33:57,974 INFO  [Log] Login Complted 
+2022-10-19 15:34:17,734 INFO  [Log] Application Opened 
+2022-10-19 15:34:22,690 INFO  [Log] Login Complted 
+2022-10-19 15:34:37,730 INFO  [Log] Application Opened 
+2022-10-19 15:34:42,658 INFO  [Log] Login Complted 
+2022-10-19 15:35:03,552 INFO  [Log] Half Day Leave Selected 
+2022-10-19 15:35:11,907 INFO  [Log] Please correct the following
+
+ - Invalid Date Range
+ 
+2022-10-19 15:35:13,939 INFO  [Log] Leave Assigned 
+2022-10-19 15:35:14,201 INFO  [Log] Logout Completed 
+2022-10-19 15:35:15,557 INFO  [Log] Application Closed 
+2022-10-19 15:35:20,857 INFO  [Log] Application Opened 
+2022-10-19 15:35:25,809 INFO  [Log] Login Complted 
+2022-10-19 15:35:50,122 INFO  [Log] Employee Leave List Displayed 
+2022-10-19 15:35:50,640 INFO  [Log] Logout Completed 
+2022-10-19 15:35:51,897 INFO  [Log] Application Closed 
+2022-10-19 15:35:56,457 INFO  [Log] Application Opened 
+2022-10-19 15:36:01,506 INFO  [Log] Login Complted 
+2022-10-19 15:36:22,597 INFO  [Log] Entered Data Cleared 
+2022-10-19 15:36:23,073 INFO  [Log] Logout Completed 
+2022-10-19 15:36:24,271 INFO  [Log] Application Closed 
+2022-10-19 15:36:28,767 INFO  [Log] Application Opened 
+2022-10-19 15:36:33,720 INFO  [Log] Login Complted 
+2022-10-19 15:36:41,276 INFO  [Log] Application Opened 
+2022-10-19 15:36:46,248 INFO  [Log] Login Complted 
+2022-10-19 15:51:41,140 INFO  [Log] Application Opened 
+2022-10-19 15:51:46,199 INFO  [Log] Login Complted 
+2022-10-19 15:53:22,747 INFO  [Log] Application Opened 
+2022-10-19 15:53:27,716 INFO  [Log] Login Complted 
+2022-10-19 15:53:43,391 INFO  [Log] Leave Type Added 
+2022-10-19 15:53:43,699 INFO  [Log] Logout Completed 
+2022-10-19 15:53:44,979 INFO  [Log] Application Closed 
+2022-10-19 15:54:22,839 INFO  [Log] Application Opened 
+2022-10-19 15:54:28,143 INFO  [Log] Login Complted 
+2022-10-19 15:54:43,079 INFO  [Log] Do you want to delete? 
+2022-10-19 15:54:45,124 INFO  [Log] Leave Type Record Deleted 
+2022-10-19 15:54:45,581 INFO  [Log] Logout Completed 
+2022-10-19 15:54:46,730 INFO  [Log] Application Closed 
+2022-10-19 15:55:21,520 INFO  [Log] Application Opened 
+2022-10-19 15:55:26,447 INFO  [Log] Login Complted 
+2022-10-19 16:06:06,088 INFO  [Log] Application Opened 
+2022-10-19 16:06:11,062 INFO  [Log] Login Complted 
+2022-10-19 16:09:38,414 INFO  [Log] Application Opened 
+2022-10-19 16:09:43,429 INFO  [Log] Login Complted 
+2022-10-19 16:28:57,656 INFO  [Log] Application Opened 
+2022-10-19 16:29:02,629 INFO  [Log] Login Complted 
+2022-10-19 16:31:00,652 INFO  [Log] Application Opened 
+2022-10-19 16:31:05,600 INFO  [Log] Login Complted 
+2022-10-19 16:35:15,478 INFO  [Log] Application Opened 
+2022-10-19 16:35:20,476 INFO  [Log] Login Complted 
+2022-10-19 16:35:36,439 INFO  [Log] Pay Period details added 
+2022-10-19 16:35:36,901 INFO  [Log] Logout Completed 
+2022-10-19 16:35:38,316 INFO  [Log] Application Closed 
+2022-10-19 16:37:47,236 INFO  [Log] Application Opened 
+2022-10-19 16:37:52,248 INFO  [Log] Login Complted 
+2022-10-19 16:38:12,382 INFO  [Log] Pay Period details Cleared 
+2022-10-19 16:38:12,895 INFO  [Log] Logout Completed 
+2022-10-19 16:38:14,099 INFO  [Log] Application Closed 
+2022-10-19 16:38:49,687 INFO  [Log] Application Opened 
+2022-10-19 16:38:54,752 INFO  [Log] Login Complted 
+2022-10-19 16:39:09,970 INFO  [Log] Employee Details added 
+2022-10-19 16:39:10,450 INFO  [Log] Logout Completed 
+2022-10-19 16:39:11,710 INFO  [Log] Application Closed 
+2022-10-19 16:39:16,550 INFO  [Log] Application Opened 
+2022-10-19 16:39:21,541 INFO  [Log] Login Complted 
+2022-10-19 16:39:37,442 INFO  [Log] Employee Details added 
+2022-10-19 16:39:54,495 INFO  [Log] Education details added 
+2022-10-19 16:39:54,750 INFO  [Log] Logout Completed 
+2022-10-19 16:39:55,921 INFO  [Log] Application Closed 
+2022-10-19 16:40:01,241 INFO  [Log] Application Opened 
+2022-10-19 16:40:06,369 INFO  [Log] Login Complted 
+2022-10-19 16:40:21,481 INFO  [Log] Employee Details added 
+2022-10-19 16:40:33,795 INFO  [Log] Salary details saved 
+2022-10-19 16:40:34,380 INFO  [Log] Logout Completed 
+2022-10-19 16:40:35,662 INFO  [Log] Application Closed 
+2022-10-19 16:40:40,934 INFO  [Log] Application Opened 
+2022-10-19 16:40:46,012 INFO  [Log] Login Complted 
+2022-10-19 16:41:01,197 INFO  [Log] Employee Details added 
+2022-10-19 16:41:20,794 INFO  [Log] work experience details added 
+2022-10-19 16:41:21,037 INFO  [Log] Logout Completed 
+2022-10-19 16:41:22,257 INFO  [Log] Application Closed 
+2022-10-19 16:41:28,066 INFO  [Log] Application Opened 
+2022-10-19 16:41:33,072 INFO  [Log] Login Complted 
+2022-10-19 16:41:59,987 INFO  [Log] Emp Records Deleted 
+2022-10-19 16:42:00,606 INFO  [Log] Logout Completed 
+2022-10-19 16:42:01,382 INFO  [Log] Application Closed 
+2022-10-19 16:42:05,361 INFO  [Log] Application Opened 
+2022-10-19 16:42:10,275 INFO  [Log] Login Complted 
+2022-10-19 16:42:20,996 INFO  [Log] Emp Details Search Cleared 
+2022-10-19 16:42:21,467 INFO  [Log] Logout Completed 
+2022-10-19 16:42:22,652 INFO  [Log] Application Closed 
+2022-10-19 16:42:27,385 INFO  [Log] Application Opened 
+2022-10-19 16:42:32,365 INFO  [Log] Login Complted 
+2022-10-19 16:42:34,415 INFO  [Log] Here All Links: 
+2022-10-19 16:42:34,494 INFO  [Log] 2-javascript:chgPage(2); 
+2022-10-19 16:42:34,580 INFO  [Log] 3-javascript:chgPage(3); 
+2022-10-19 16:42:34,664 INFO  [Log] 4-javascript:chgPage(4); 
+2022-10-19 16:42:34,750 INFO  [Log] 5-javascript:chgPage(5); 
+2022-10-19 16:42:34,890 INFO  [Log] 6-javascript:chgPage(6); 
+2022-10-19 16:42:35,033 INFO  [Log] Next-javascript:nextPage(); 
+2022-10-19 16:42:35,143 INFO  [Log] Last-javascript:chgPage(72); 
+2022-10-19 16:42:35,227 INFO  [Log] Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,305 INFO  [Log] Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,377 INFO  [Log] Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,453 INFO  [Log] Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,544 INFO  [Log] Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,623 INFO  [Log] Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 16:42:35,701 INFO  [Log] priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:35,809 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:35,900 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:35,982 INFO  [Log] suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,060 INFO  [Log] Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,134 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,208 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,282 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,376 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,465 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,576 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,663 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,753 INFO  [Log] saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,841 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:36,933 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,026 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,114 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,210 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,279 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,344 INFO  [Log] Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,410 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,484 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,556 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,624 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,698 INFO  [Log] selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,770 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,840 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:37,911 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,004 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,092 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,172 INFO  [Log] Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,243 INFO  [Log] Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,325 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,400 INFO  [Log] naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,475 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,539 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,606 INFO  [Log] rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,673 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,732 INFO  [Log] Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,796 INFO  [Log] selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,857 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,935 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:38,998 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,061 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,128 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,196 INFO  [Log] ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,258 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,324 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,392 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:39,466 INFO  [Log] vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 16:42:41,500 INFO  [Log] All Links Restored 
+2022-10-19 16:42:41,967 INFO  [Log] Logout Completed 
+2022-10-19 16:42:43,163 INFO  [Log] Application Closed 
+2022-10-19 16:42:58,827 INFO  [Log] Application Opened 
+2022-10-19 16:43:03,824 INFO  [Log] Login Complted 
+2022-10-19 16:43:05,898 INFO  [Log] -Select- 
+2022-10-19 16:43:05,919 INFO  [Log] Emp. ID 
+2022-10-19 16:43:05,942 INFO  [Log] Emp. First Name 
+2022-10-19 16:43:05,966 INFO  [Log] Emp. Last Name 
+2022-10-19 16:43:05,986 INFO  [Log] Emp. Middle Name 
+2022-10-19 16:43:06,006 INFO  [Log] Job Title 
+2022-10-19 16:43:06,027 INFO  [Log] Employment status 
+2022-10-19 16:43:06,048 INFO  [Log] Sub-Division 
+2022-10-19 16:43:06,068 INFO  [Log] Supervisor 
+2022-10-19 16:43:08,071 INFO  [Log] All Options Retrieved 
+2022-10-19 16:43:08,314 INFO  [Log] Logout Completed 
+2022-10-19 16:43:09,563 INFO  [Log] Application Closed 
+2022-10-19 16:45:46,107 INFO  [Log] Application Opened 
+2022-10-19 16:45:51,026 INFO  [Log] Login Complted 
+2022-10-19 16:46:05,075 INFO  [Log] Employee Details added 
+2022-10-19 16:46:12,247 INFO  [Log] Application Opened 
+2022-10-19 16:46:17,285 INFO  [Log] Login Complted 
+2022-10-19 16:46:32,482 INFO  [Log] Employee Details added 
+2022-10-19 16:46:41,390 INFO  [Log] Software Tester Selected 
+2022-10-19 16:46:43,966 INFO  [Log] Software Selected 
+2022-10-19 16:46:48,650 INFO  [Log] NareshIT Selected 
+2022-10-19 16:46:56,899 INFO  [Log] Job Details Added 
+2022-10-19 16:46:59,156 INFO  [Log] Logout Completed 
+2022-10-19 16:47:00,393 INFO  [Log] Application Closed 
+2022-10-19 16:47:05,376 INFO  [Log] Application Opened 
+2022-10-19 16:47:10,421 INFO  [Log] Login Complted 
+2022-10-19 16:47:23,095 INFO  [Log] Year 2022 Selected 
+2022-10-19 16:47:25,145 INFO  [Log] All Employees Selected 
+2022-10-19 16:47:27,189 INFO  [Log] All Selected 
+2022-10-19 16:47:32,304 INFO  [Log] Employee Leave Status Page Displayed 
+2022-10-19 16:47:34,784 INFO  [Log] Logout Completed 
+2022-10-19 16:47:35,932 INFO  [Log] Application Closed 
+2022-10-19 16:47:40,321 INFO  [Log] Application Opened 
+2022-10-19 16:47:45,203 INFO  [Log] Login Complted 
+2022-10-19 16:48:07,283 INFO  [Log] Full day selected 
+2022-10-19 16:48:09,464 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 16:48:16,540 INFO  [Log] Application Opened 
+2022-10-19 16:48:21,513 INFO  [Log] Login Complted 
+2022-10-19 16:48:38,978 INFO  [Log] Logout Completed 
+2022-10-19 16:48:40,116 INFO  [Log] Application Closed 
+2022-10-19 16:48:45,365 INFO  [Log] Application Opened 
+2022-10-19 16:48:50,480 INFO  [Log] Login Complted 
+2022-10-19 16:48:57,088 INFO  [Log] DayOff Page Opened-The total number of applied leave should be zero to change the weekends message is Displayed 
+2022-10-19 16:48:57,519 INFO  [Log] Logout Completed 
+2022-10-19 16:48:58,745 INFO  [Log] Application Closed 
+2022-10-19 16:49:03,594 INFO  [Log] Application Opened 
+2022-10-19 16:49:08,538 INFO  [Log] Login Complted 
+2022-10-19 16:49:28,640 INFO  [Log] Application Opened 
+2022-10-19 16:49:33,578 INFO  [Log] Login Complted 
+2022-10-19 16:49:51,142 INFO  [Log] Application Opened 
+2022-10-19 16:49:56,130 INFO  [Log] Login Complted 
+2022-10-19 16:50:17,192 INFO  [Log] Half Day Leave Selected 
+2022-10-19 16:50:25,515 INFO  [Log] Please correct the following
+
+ - Invalid Date Range
+ 
+2022-10-19 16:50:27,535 INFO  [Log] Leave Assigned 
+2022-10-19 16:50:27,838 INFO  [Log] Logout Completed 
+2022-10-19 16:50:29,191 INFO  [Log] Application Closed 
+2022-10-19 16:50:34,592 INFO  [Log] Application Opened 
+2022-10-19 16:50:40,093 INFO  [Log] Login Complted 
+2022-10-19 16:51:04,434 INFO  [Log] Employee Leave List Displayed 
+2022-10-19 16:51:04,918 INFO  [Log] Logout Completed 
+2022-10-19 16:51:06,087 INFO  [Log] Application Closed 
+2022-10-19 16:51:11,184 INFO  [Log] Application Opened 
+2022-10-19 16:51:16,129 INFO  [Log] Login Complted 
+2022-10-19 16:51:37,295 INFO  [Log] Entered Data Cleared 
+2022-10-19 16:51:37,731 INFO  [Log] Logout Completed 
+2022-10-19 16:51:39,015 INFO  [Log] Application Closed 
+2022-10-19 16:51:43,727 INFO  [Log] Application Opened 
+2022-10-19 16:51:48,725 INFO  [Log] Login Complted 
+2022-10-19 16:52:08,566 INFO  [Log] Pay Period details added 
+2022-10-19 16:52:08,809 INFO  [Log] Logout Completed 
+2022-10-19 16:52:10,081 INFO  [Log] Application Closed 
+2022-10-19 16:52:14,910 INFO  [Log] Application Opened 
+2022-10-19 16:52:19,831 INFO  [Log] Login Complted 
+2022-10-19 16:52:39,876 INFO  [Log] Pay Period details Cleared 
+2022-10-19 16:52:40,331 INFO  [Log] Logout Completed 
+2022-10-19 16:52:41,689 INFO  [Log] Application Closed 
+2022-10-19 16:54:50,786 INFO  [Log] Application Opened 
+2022-10-19 16:54:55,781 INFO  [Log] Login Complted 
+2022-10-19 16:55:10,612 INFO  [Log] Employee Details added 
+2022-10-19 16:55:37,617 INFO  [Log] Personal details Added 
+2022-10-19 16:55:37,921 INFO  [Log] Logout Completed 
+2022-10-19 16:55:39,273 INFO  [Log] Application Closed 
+2022-10-19 16:56:32,032 INFO  [Log] Application Opened 
+2022-10-19 16:56:37,117 INFO  [Log] Login Complted 
+2022-10-19 16:56:58,695 INFO  [Log] Full day selected 
+2022-10-19 16:57:00,839 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 17:01:58,129 INFO  [Log] Application Opened 
+2022-10-19 17:02:03,137 INFO  [Log] Login Complted 
+2022-10-19 17:02:24,679 INFO  [Log] Full day selected 
+2022-10-19 17:02:26,814 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 17:03:51,980 INFO  [Log] Application Opened 
+2022-10-19 17:03:56,987 INFO  [Log] Login Complted 
+2022-10-19 17:04:18,578 INFO  [Log] Full day selected 
+2022-10-19 17:04:21,330 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 17:04:23,831 INFO  [Log] Logout Completed 
+2022-10-19 17:04:25,204 INFO  [Log] Application Closed 
+2022-10-19 17:04:53,868 INFO  [Log] Application Opened 
+2022-10-19 17:05:04,170 INFO  [Log] Login Complted 
+2022-10-19 17:06:44,167 INFO  [Log] Application Opened 
+2022-10-19 17:06:49,181 INFO  [Log] Login Complted 
+2022-10-19 17:07:04,229 INFO  [Log] Employee Details added 
+2022-10-19 17:07:04,655 INFO  [Log] Logout Completed 
+2022-10-19 17:07:05,855 INFO  [Log] Application Closed 
+2022-10-19 17:07:10,402 INFO  [Log] Application Opened 
+2022-10-19 17:07:15,389 INFO  [Log] Login Complted 
+2022-10-19 17:07:30,637 INFO  [Log] Employee Details added 
+2022-10-19 17:07:46,854 INFO  [Log] Education details added 
+2022-10-19 17:07:47,408 INFO  [Log] Logout Completed 
+2022-10-19 17:07:48,722 INFO  [Log] Application Closed 
+2022-10-19 17:07:53,740 INFO  [Log] Application Opened 
+2022-10-19 17:07:58,702 INFO  [Log] Login Complted 
+2022-10-19 17:08:13,723 INFO  [Log] Employee Details added 
+2022-10-19 17:08:25,930 INFO  [Log] Salary details saved 
+2022-10-19 17:08:26,471 INFO  [Log] Logout Completed 
+2022-10-19 17:08:27,812 INFO  [Log] Application Closed 
+2022-10-19 17:08:33,294 INFO  [Log] Application Opened 
+2022-10-19 17:08:38,308 INFO  [Log] Login Complted 
+2022-10-19 17:08:52,863 INFO  [Log] Employee Details added 
+2022-10-19 17:09:11,263 INFO  [Log] work experience details added 
+2022-10-19 17:09:11,767 INFO  [Log] Logout Completed 
+2022-10-19 17:09:12,968 INFO  [Log] Application Closed 
+2022-10-19 17:09:17,731 INFO  [Log] Application Opened 
+2022-10-19 17:09:22,673 INFO  [Log] Login Complted 
+2022-10-19 17:09:47,495 INFO  [Log] Emp Records Deleted 
+2022-10-19 17:09:47,981 INFO  [Log] Logout Completed 
+2022-10-19 17:09:49,201 INFO  [Log] Application Closed 
+2022-10-19 17:09:54,180 INFO  [Log] Application Opened 
+2022-10-19 17:09:59,157 INFO  [Log] Login Complted 
+2022-10-19 17:10:09,855 INFO  [Log] Emp Details Search Cleared 
+2022-10-19 17:10:10,365 INFO  [Log] Logout Completed 
+2022-10-19 17:10:11,504 INFO  [Log] Application Closed 
+2022-10-19 17:10:16,765 INFO  [Log] Application Opened 
+2022-10-19 17:10:21,781 INFO  [Log] Login Complted 
+2022-10-19 17:10:23,868 INFO  [Log] Here All Links: 
+2022-10-19 17:10:23,949 INFO  [Log] 2-javascript:chgPage(2); 
+2022-10-19 17:10:24,033 INFO  [Log] 3-javascript:chgPage(3); 
+2022-10-19 17:10:24,127 INFO  [Log] 4-javascript:chgPage(4); 
+2022-10-19 17:10:24,260 INFO  [Log] 5-javascript:chgPage(5); 
+2022-10-19 17:10:24,423 INFO  [Log] 6-javascript:chgPage(6); 
+2022-10-19 17:10:24,540 INFO  [Log] Next-javascript:nextPage(); 
+2022-10-19 17:10:24,649 INFO  [Log] Last-javascript:chgPage(72); 
+2022-10-19 17:10:24,723 INFO  [Log] Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:24,790 INFO  [Log] Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:24,861 INFO  [Log] Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:24,930 INFO  [Log] Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:25,006 INFO  [Log] Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:25,071 INFO  [Log] Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN# 
+2022-10-19 17:10:25,140 INFO  [Log] priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,203 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,272 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,347 INFO  [Log] suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,416 INFO  [Log] Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,486 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,550 INFO  [Log] Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,629 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,696 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,760 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,829 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,898 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:25,964 INFO  [Log] saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,034 INFO  [Log] Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,095 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,163 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,227 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,295 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,381 INFO  [Log] Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,452 INFO  [Log] Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,525 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,599 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,663 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,751 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,842 INFO  [Log] selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,915 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:26,984 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,057 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,129 INFO  [Log] selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,194 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,263 INFO  [Log] Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,331 INFO  [Log] Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,402 INFO  [Log] seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,469 INFO  [Log] naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,544 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,617 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,693 INFO  [Log] rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,756 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,822 INFO  [Log] Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,894 INFO  [Log] selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:27,964 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,033 INFO  [Log] cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,099 INFO  [Log] Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,170 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,237 INFO  [Log] lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,304 INFO  [Log] ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,399 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,466 INFO  [Log] selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,526 INFO  [Log] first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:28,594 INFO  [Log] vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1 
+2022-10-19 17:10:30,622 INFO  [Log] All Links Restored 
+2022-10-19 17:10:31,114 INFO  [Log] Logout Completed 
+2022-10-19 17:10:32,337 INFO  [Log] Application Closed 
+2022-10-19 17:10:36,893 INFO  [Log] Application Opened 
+2022-10-19 17:10:41,841 INFO  [Log] Login Complted 
+2022-10-19 17:10:43,958 INFO  [Log] -Select- 
+2022-10-19 17:10:43,982 INFO  [Log] Emp. ID 
+2022-10-19 17:10:44,005 INFO  [Log] Emp. First Name 
+2022-10-19 17:10:44,030 INFO  [Log] Emp. Last Name 
+2022-10-19 17:10:44,051 INFO  [Log] Emp. Middle Name 
+2022-10-19 17:10:44,074 INFO  [Log] Job Title 
+2022-10-19 17:10:44,097 INFO  [Log] Employment status 
+2022-10-19 17:10:44,119 INFO  [Log] Sub-Division 
+2022-10-19 17:10:44,140 INFO  [Log] Supervisor 
+2022-10-19 17:10:46,149 INFO  [Log] All Options Retrieved 
+2022-10-19 17:10:46,560 INFO  [Log] Logout Completed 
+2022-10-19 17:10:47,765 INFO  [Log] Application Closed 
+2022-10-19 17:10:52,382 INFO  [Log] Application Opened 
+2022-10-19 17:10:57,521 INFO  [Log] Login Complted 
+2022-10-19 17:11:13,298 INFO  [Log] Employee Details added 
+2022-10-19 17:11:40,196 INFO  [Log] Personal details Added 
+2022-10-19 17:11:40,448 INFO  [Log] Logout Completed 
+2022-10-19 17:11:41,565 INFO  [Log] Application Closed 
+2022-10-19 17:11:46,663 INFO  [Log] Application Opened 
+2022-10-19 17:11:51,620 INFO  [Log] Login Complted 
+2022-10-19 17:12:06,360 INFO  [Log] Employee Details added 
+2022-10-19 17:12:15,218 INFO  [Log] Software Tester Selected 
+2022-10-19 17:12:17,799 INFO  [Log] Software Selected 
+2022-10-19 17:12:22,488 INFO  [Log] NareshIT Selected 
+2022-10-19 17:12:30,709 INFO  [Log] Job Details Added 
+2022-10-19 17:12:32,959 INFO  [Log] Logout Completed 
+2022-10-19 17:12:34,185 INFO  [Log] Application Closed 
+2022-10-19 17:12:39,026 INFO  [Log] Application Opened 
+2022-10-19 17:12:44,045 INFO  [Log] Login Complted 
+2022-10-19 17:12:56,725 INFO  [Log] Year 2022 Selected 
+2022-10-19 17:12:58,781 INFO  [Log] All Employees Selected 
+2022-10-19 17:13:00,832 INFO  [Log] All Selected 
+2022-10-19 17:13:03,916 INFO  [Log] Employee Leave Status Page Displayed 
+2022-10-19 17:13:06,423 INFO  [Log] Logout Completed 
+2022-10-19 17:13:07,647 INFO  [Log] Application Closed 
+2022-10-19 17:13:12,620 INFO  [Log] Application Opened 
+2022-10-19 17:13:17,545 INFO  [Log] Login Complted 
+2022-10-19 17:13:39,241 INFO  [Log] Full day selected 
+2022-10-19 17:13:41,357 INFO  [Log] Specific Holiday Date Created 
+2022-10-19 17:13:48,430 INFO  [Log] Application Opened 
+2022-10-19 17:13:53,369 INFO  [Log] Login Complted 
+2022-10-19 17:14:10,936 INFO  [Log] Logout Completed 
+2022-10-19 17:14:12,135 INFO  [Log] Application Closed 
+2022-10-19 17:14:17,328 INFO  [Log] Application Opened 
+2022-10-19 17:14:22,640 INFO  [Log] Login Complted 
+2022-10-19 17:14:29,252 INFO  [Log] DayOff Page Opened-The total number of applied leave should be zero to change the weekends message is Displayed 
+2022-10-19 17:14:29,503 INFO  [Log] Logout Completed 
+2022-10-19 17:14:30,788 INFO  [Log] Application Closed 
+2022-10-19 17:14:35,736 INFO  [Log] Application Opened 
+2022-10-19 17:14:40,702 INFO  [Log] Login Complted 
+2022-10-19 17:14:56,217 INFO  [Log] Leave Type Added 
+2022-10-19 17:14:56,501 INFO  [Log] Logout Completed 
+2022-10-19 17:14:57,663 INFO  [Log] Application Closed 
+2022-10-19 17:15:02,349 INFO  [Log] Application Opened 
+2022-10-19 17:15:07,286 INFO  [Log] Login Complted 
+2022-10-19 17:15:22,191 INFO  [Log] Do you want to delete? 
+2022-10-19 17:15:24,216 INFO  [Log] Leave Type Record Deleted 
+2022-10-19 17:15:24,705 INFO  [Log] Logout Completed 
+2022-10-19 17:15:25,963 INFO  [Log] Application Closed 
+2022-10-19 17:15:30,949 INFO  [Log] Application Opened 
+2022-10-19 17:15:35,983 INFO  [Log] Login Complted 
+2022-10-19 17:15:56,949 INFO  [Log] Half Day Leave Selected 
+2022-10-19 17:16:05,277 INFO  [Log] Please correct the following
+
+ - Invalid Date Range
+ 
+2022-10-19 17:16:07,319 INFO  [Log] Leave Assigned 
+2022-10-19 17:16:07,572 INFO  [Log] Logout Completed 
+2022-10-19 17:16:08,968 INFO  [Log] Application Closed 
+2022-10-19 17:16:14,042 INFO  [Log] Application Opened 
+2022-10-19 17:16:19,020 INFO  [Log] Login Complted 
+2022-10-19 17:16:43,276 INFO  [Log] Employee Leave List Displayed 
+2022-10-19 17:16:43,753 INFO  [Log] Logout Completed 
+2022-10-19 17:16:45,017 INFO  [Log] Application Closed 
+2022-10-19 17:16:50,080 INFO  [Log] Application Opened 
+2022-10-19 17:16:55,097 INFO  [Log] Login Complted 
+2022-10-19 17:17:16,181 INFO  [Log] Entered Data Cleared 
+2022-10-19 17:17:16,583 INFO  [Log] Logout Completed 
+2022-10-19 17:17:17,736 INFO  [Log] Application Closed 
+2022-10-19 17:17:22,482 INFO  [Log] Application Opened 
+2022-10-19 17:17:27,464 INFO  [Log] Login Complted 
+2022-10-19 17:17:47,283 INFO  [Log] Pay Period details added 
+2022-10-19 17:17:47,733 INFO  [Log] Logout Completed 
+2022-10-19 17:17:48,992 INFO  [Log] Application Closed 
+2022-10-19 17:17:53,781 INFO  [Log] Application Opened 
+2022-10-19 17:17:59,027 INFO  [Log] Login Complted 
+2022-10-19 17:18:19,068 INFO  [Log] Pay Period details Cleared 
+2022-10-19 17:18:19,550 INFO  [Log] Logout Completed 
+2022-10-19 17:18:20,765 INFO  [Log] Application Closed 

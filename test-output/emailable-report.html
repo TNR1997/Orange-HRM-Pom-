@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Regression1</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">703.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Regression1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday</td><td><a href="#m1"><b>holiday</b>  </a></td><td class="numi">1</td><td>1666179787649</td><td class="numi">35754</td></tr>
+<tr><th colspan="4">Regression1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC001_PIM_AddEmpDetails</td><td><a href="#m2"><b>add</b>  </a></td><td class="numi">1</td><td>1666179397725</td><td class="numi">28130</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff</td><td><a href="#m3"><b>dayoff</b>  </a></td><td class="numi">1</td><td>1666179852135</td><td class="numi">18653</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC005_PIM_Delete</td><td><a href="#m4"><b>deleteemp</b>  </a></td><td class="numi">1</td><td>1666179552970</td><td class="numi">36231</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC002_PIM_Education</td><td><a href="#m5"><b>education</b>  </a></td><td class="numi">1</td><td>1666179425857</td><td class="numi">42867</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC010_PIM_Job_EmpList</td><td><a href="#m6"><b>job</b>  </a></td><td class="numi">1</td><td>1666179701568</td><td class="numi">52618</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary</td><td><a href="#m7"><b>leave</b>  </a></td><td class="numi">1</td><td>1666179754188</td><td class="numi">33459</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added</td><td><a href="#m8"><b>leaveadd</b>  </a></td><td class="numi">1</td><td>1666179870791</td><td class="numi">26872</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC017_LEAVE_LeaveAssign</td><td><a href="#m9"><b>leaveassign</b>  </a></td><td class="numi">1</td><td>1666179925965</td><td class="numi">43003</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete</td><td><a href="#m10"><b>leavedelete</b>  </a></td><td class="numi">1</td><td>1666179897663</td><td class="numi">28300</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC018_Leave_Leavelist</td><td><a href="#m11"><b>leavelist</b>  </a></td><td class="numi">1</td><td>1666179968970</td><td class="numi">36047</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC007_PIM_AllLinks_EmpList</td><td><a href="#m12"><b>links</b>  </a></td><td class="numi">1</td><td>1666179611507</td><td class="numi">20830</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC019_LEAVE_LeaveListReset</td><td><a href="#m13"><b>listreset</b>  </a></td><td class="numi">1</td><td>1666180005019</td><td class="numi">32717</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC008_PIM_AllOptions_EmpList</td><td><a href="#m14"><b>options</b>  </a></td><td class="numi">1</td><td>1666179632340</td><td class="numi">15425</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod</td><td><a href="#m15"><b>payperiodadd</b>  </a></td><td class="numi">1</td><td>1666180037739</td><td class="numi">31253</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset</td><td><a href="#m16"><b>periodDetailsreset</b>  </a></td><td class="numi">1</td><td>1666180068994</td><td class="numi">31771</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList</td><td><a href="#m17"><b>personal</b>  </a></td><td class="numi">1</td><td>1666179647766</td><td class="numi">53799</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC006_PIM_EmpList_Resetemp</td><td><a href="#m18"><b>resetemp</b>  </a></td><td class="numi">1</td><td>1666179589201</td><td class="numi">22303</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC003_PIM_SalaryDetails</td><td><a href="#m19"><b>salary</b>  </a></td><td class="numi">1</td><td>1666179468724</td><td class="numi">39088</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete</td><td><a href="#m20"><b>specifichdaydelete</b>  </a></td><td class="numi">1</td><td>1666179823413</td><td class="numi">28722</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrm.testscripts.TC004_PIM_WorkExperienceDetails</td><td><a href="#m21"><b>work</b>  </a></td><td class="numi">1</td><td>1666179507813</td><td class="numi">45155</td></tr>
+</table>
+<h1>Regression1</h1>
+<h2 id="m1">com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday:holiday</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Full Day selected<br/>
+Specific Holiday Date Created<br/>
+<h3>Failure</h3>
+<p>Dismissed user prompt dialog: Date is in use. Choose another date: 
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TNR&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af7399db-ffe4-458c-b220-b541783228e4, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0, moz:accessibilityChecks: false, moz:buildID: 20221010110315, moz:debuggerAddress: 127.0.0.1:50441, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27784, moz:profile: C:\Users\TNR\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50441/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7399db-ffe4-458c-b220-b541783228e4</p>
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)
+<br/>at com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)
+<br/>at com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete:leavedelete</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Do you want to delete?<br/>
+LeaveType Record Deleted<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset:periodDetailsreset</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Pay Period Details Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod:payperiodadd</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Pay Period Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary:leave</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Year 2022 selected<br/>
+All Employees Selected<br/>
+All Selected<br/>
+Employee Leave status Page displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.hrm.testscripts.TC018_Leave_Leavelist:leavelist</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Employee Leave List Displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff:dayoff</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+DayOff Page Opened-The total number of applied leave should be zero to change the weekends Message is Displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.hrm.testscripts.TC001_PIM_AddEmpDetails:add</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.hrm.testscripts.TC005_PIM_Delete:deleteemp</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Emp Records Deleted<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.hrm.testscripts.TC002_PIM_Education:education</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Education details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete:specifichdaydelete</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Do you want to delete?<br/>
+Specific Holiday Record Delete<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.hrm.testscripts.TC007_PIM_AllLinks_EmpList:links</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Here all Links:<br/>
+2-javascript:chgPage(2);<br/>
+3-javascript:chgPage(3);<br/>
+4-javascript:chgPage(4);<br/>
+5-javascript:chgPage(5);<br/>
+6-javascript:chgPage(6);<br/>
+Next-javascript:nextPage();<br/>
+Last-javascript:chgPage(72);<br/>
+Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+All Links Restored<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.hrm.testscripts.TC006_PIM_EmpList_Resetemp:resetemp</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Emp Details Search Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList:personal</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Personal Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.hrm.testscripts.TC003_PIM_SalaryDetails:salary</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Salary details saved<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.hrm.testscripts.TC004_PIM_WorkExperienceDetails:work</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Work Experience Details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.hrm.testscripts.TC008_PIM_AllOptions_EmpList:options</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+-Select-<br/>
+Emp. ID<br/>
+Emp. First Name<br/>
+Emp. Last Name<br/>
+Emp. Middle Name<br/>
+Job Title<br/>
+Employment status<br/>
+Sub-Division<br/>
+Supervisor<br/>
+All options Retrieved<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.hrm.testscripts.TC017_LEAVE_LeaveAssign:leaveassign</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Half day Leave selected<br/>
+Please correct the following
+
+ - Invalid Date Range
+<br/>
+Leave assigned<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.hrm.testscripts.TC010_PIM_Job_EmpList:job</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Software Tester Selected<br/>
+Software Selected<br/>
+NareshIT selected<br/>
+Job Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added:leaveadd</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Leave Type Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.hrm.testscripts.TC019_LEAVE_LeaveListReset:listreset</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Entered  Data Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,585 @@
+<html>
+<head>
+<title>TestNG:  Regression1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 19 17:06:37 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>703 seconds (703068 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday()'><b>holiday</b><br>Test class: com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday<br/>
+<a href="#Output-1471364137" onClick='toggleBox("Output-1471364137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1471364137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1471364137">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Full Day selected<br/>
+Specific Holiday Date Created<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Date is in use. Choose another date: 
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TNR&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af7399db-ffe4-458c-b220-b541783228e4, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0, moz:accessibilityChecks: false, moz:buildID: 20221010110315, moz:debuggerAddress: 127.0.0.1:50441, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27784, moz:profile: C:\Users\TNR\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50441/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7399db-ffe4-458c-b220-b541783228e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)
+	at com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)
+	at com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1471364137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1471364137'><pre>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Date is in use. Choose another date: 
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TNR&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af7399db-ffe4-458c-b220-b541783228e4, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0, moz:accessibilityChecks: false, moz:buildID: 20221010110315, moz:debuggerAddress: 127.0.0.1:50441, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27784, moz:profile: C:\Users\TNR\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50441/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7399db-ffe4-458c-b220-b541783228e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)
+	at com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)
+	at com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>35</td>
+<td>com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday@4ddced80</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hrm.testscripts.TC001_PIM_AddEmpDetails.add()'><b>add</b><br>Test class: com.hrm.testscripts.TC001_PIM_AddEmpDetails<br/>
+<a href="#Output-116356643" onClick='toggleBox("Output-116356643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-116356643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116356643">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.hrm.testscripts.TC001_PIM_AddEmpDetails@20d28811</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff.dayoff()'><b>dayoff</b><br>Test class: com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff<br/>
+<a href="#Output-1023606628" onClick='toggleBox("Output-1023606628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1023606628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1023606628">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+DayOff Page Opened-The total number of applied leave should be zero to change the weekends Message is Displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff@794cb805</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC005_PIM_Delete.deleteemp()'><b>deleteemp</b><br>Test class: com.hrm.testscripts.TC005_PIM_Delete<br/>
+<a href="#Output-1852655488" onClick='toggleBox("Output-1852655488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1852655488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1852655488">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Emp Records Deleted<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.hrm.testscripts.TC005_PIM_Delete@3967e60c</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC002_PIM_Education.education()'><b>education</b><br>Test class: com.hrm.testscripts.TC002_PIM_Education<br/>
+<a href="#Output-1802029863" onClick='toggleBox("Output-1802029863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1802029863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1802029863">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Education details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.hrm.testscripts.TC002_PIM_Education@5cee5251</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC010_PIM_Job_EmpList.job()'><b>job</b><br>Test class: com.hrm.testscripts.TC010_PIM_Job_EmpList<br/>
+<a href="#Output-2076029472" onClick='toggleBox("Output-2076029472", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2076029472" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2076029472">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Software Tester Selected<br/>
+Software Selected<br/>
+NareshIT selected<br/>
+Job Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>com.hrm.testscripts.TC010_PIM_Job_EmpList@60d8c9b7</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary.leave()'><b>leave</b><br>Test class: com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary<br/>
+<a href="#Output-784386691" onClick='toggleBox("Output-784386691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-784386691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-784386691">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Year 2022 selected<br/>
+All Employees Selected<br/>
+All Selected<br/>
+Employee Leave status Page displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary@1f3f4916</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added.leaveadd()'><b>leaveadd</b><br>Test class: com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added<br/>
+<a href="#Output-737199885" onClick='toggleBox("Output-737199885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737199885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737199885">
+Application Opened<br/>
+Login Completed<br/>
+Leave Type Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added@75329a49</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC017_LEAVE_LeaveAssign.leaveassign()'><b>leaveassign</b><br>Test class: com.hrm.testscripts.TC017_LEAVE_LeaveAssign<br/>
+<a href="#Output-1559037239" onClick='toggleBox("Output-1559037239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559037239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559037239">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Half day Leave selected<br/>
+Please correct the following
+
+ - Invalid Date Range
+<br/>
+Leave assigned<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.hrm.testscripts.TC017_LEAVE_LeaveAssign@4b5a5ed1</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete.leavedelete()'><b>leavedelete</b><br>Test class: com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete<br/>
+<a href="#Output-365212068" onClick='toggleBox("Output-365212068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365212068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365212068">
+Application Opened<br/>
+Login Completed<br/>
+Title matched<br/>
+Do you want to delete?<br/>
+LeaveType Record Deleted<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete@4b14c583</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC018_Leave_Leavelist.leavelist()'><b>leavelist</b><br>Test class: com.hrm.testscripts.TC018_Leave_Leavelist<br/>
+<a href="#Output-374625527" onClick='toggleBox("Output-374625527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-374625527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-374625527">
+Application Opened<br/>
+Login Completed<br/>
+Employee Leave List Displayed<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.hrm.testscripts.TC018_Leave_Leavelist@5ccddd20</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC007_PIM_AllLinks_EmpList.links()'><b>links</b><br>Test class: com.hrm.testscripts.TC007_PIM_AllLinks_EmpList<br/>
+<a href="#Output-314622131" onClick='toggleBox("Output-314622131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-314622131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-314622131">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Here all Links:<br/>
+2-javascript:chgPage(2);<br/>
+3-javascript:chgPage(3);<br/>
+4-javascript:chgPage(4);<br/>
+5-javascript:chgPage(5);<br/>
+6-javascript:chgPage(6);<br/>
+Next-javascript:nextPage();<br/>
+Last-javascript:chgPage(72);<br/>
+Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#<br/>
+priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1<br/>
+All Links Restored<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.hrm.testscripts.TC007_PIM_AllLinks_EmpList@5c909414</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC019_LEAVE_LeaveListReset.listreset()'><b>listreset</b><br>Test class: com.hrm.testscripts.TC019_LEAVE_LeaveListReset<br/>
+<a href="#Output-902967599" onClick='toggleBox("Output-902967599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902967599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902967599">
+Application Opened<br/>
+Login Completed<br/>
+Entered  Data Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.hrm.testscripts.TC019_LEAVE_LeaveListReset@7c0c77c7</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC008_PIM_AllOptions_EmpList.options()'><b>options</b><br>Test class: com.hrm.testscripts.TC008_PIM_AllOptions_EmpList<br/>
+<a href="#Output-1107034244" onClick='toggleBox("Output-1107034244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107034244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107034244">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+-Select-<br/>
+Emp. ID<br/>
+Emp. First Name<br/>
+Emp. Last Name<br/>
+Emp. Middle Name<br/>
+Job Title<br/>
+Employment status<br/>
+Sub-Division<br/>
+Supervisor<br/>
+All options Retrieved<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.hrm.testscripts.TC008_PIM_AllOptions_EmpList@3cc2931c</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod.payperiodadd()'><b>payperiodadd</b><br>Test class: com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod<br/>
+<a href="#Output-1702926498" onClick='toggleBox("Output-1702926498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1702926498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1702926498">
+Application Opened<br/>
+Login Completed<br/>
+Pay Period Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod@1534f01b</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset.periodDetailsreset()'><b>periodDetailsreset</b><br>Test class: com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset<br/>
+<a href="#Output-37639998" onClick='toggleBox("Output-37639998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37639998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37639998">
+Application Opened<br/>
+Login Completed<br/>
+Pay Period Details Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset@59d016c9</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList.personal()'><b>personal</b><br>Test class: com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList<br/>
+<a href="#Output-1224970135" onClick='toggleBox("Output-1224970135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1224970135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1224970135">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Personal Details Added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList@433d61fb</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC006_PIM_EmpList_Resetemp.resetemp()'><b>resetemp</b><br>Test class: com.hrm.testscripts.TC006_PIM_EmpList_Resetemp<br/>
+<a href="#Output-1955566523" onClick='toggleBox("Output-1955566523", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955566523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955566523">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Emp Details Search Cleared<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.hrm.testscripts.TC006_PIM_EmpList_Resetemp@7adda9cc</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC003_PIM_SalaryDetails.salary()'><b>salary</b><br>Test class: com.hrm.testscripts.TC003_PIM_SalaryDetails<br/>
+<a href="#Output-203409962" onClick='toggleBox("Output-203409962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203409962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203409962">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Salary details saved<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.hrm.testscripts.TC003_PIM_SalaryDetails@48aaecc3</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete.specifichdaydelete()'><b>specifichdaydelete</b><br>Test class: com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete<br/>
+<a href="#Output-1995103322" onClick='toggleBox("Output-1995103322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1995103322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1995103322">
+Application Opened<br/>
+Login Completed<br/>
+Do you want to delete?<br/>
+Specific Holiday Record Delete<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete@65466a6a</td></tr>
+<tr>
+<td title='com.hrm.testscripts.TC004_PIM_WorkExperienceDetails.work()'><b>work</b><br>Test class: com.hrm.testscripts.TC004_PIM_WorkExperienceDetails<br/>
+<a href="#Output-233309087" onClick='toggleBox("Output-233309087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-233309087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233309087">
+Application Opened<br/>
+Title is not matched :OrangeHRM - New Level of HR Management<br/>
+Login Completed<br/>
+Employee Details added<br/>
+Work Experience Details added<br/>
+Logout completed<br/>
+Application Closed<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>com.hrm.testscripts.TC004_PIM_WorkExperienceDetails@1ed1993a</td></tr>
+</table><p>
+</body>
+</html>

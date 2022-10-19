@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>C:\TNR1\POM_FrameWork\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday" class="method navigator-link" hash-for-method="holiday">holiday</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC001_PIM_AddEmpDetails" class="method navigator-link" hash-for-method="add">add</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff" class="method navigator-link" hash-for-method="dayoff">dayoff</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC005_PIM_Delete" class="method navigator-link" hash-for-method="deleteemp">deleteemp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC002_PIM_Education" class="method navigator-link" hash-for-method="education">education</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC010_PIM_Job_EmpList" class="method navigator-link" hash-for-method="job">job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary" class="method navigator-link" hash-for-method="leave">leave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added" class="method navigator-link" hash-for-method="leaveadd">leaveadd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC017_LEAVE_LeaveAssign" class="method navigator-link" hash-for-method="leaveassign">leaveassign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete" class="method navigator-link" hash-for-method="leavedelete">leavedelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC018_Leave_Leavelist" class="method navigator-link" hash-for-method="leavelist">leavelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC007_PIM_AllLinks_EmpList" class="method navigator-link" hash-for-method="links">links</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC019_LEAVE_LeaveListReset" class="method navigator-link" hash-for-method="listreset">listreset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC008_PIM_AllOptions_EmpList" class="method navigator-link" hash-for-method="options">options</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod" class="method navigator-link" hash-for-method="payperiodadd">payperiodadd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset" class="method navigator-link" hash-for-method="periodDetailsreset">periodDetailsreset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList" class="method navigator-link" hash-for-method="personal">personal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC006_PIM_EmpList_Resetemp" class="method navigator-link" hash-for-method="resetemp">resetemp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC003_PIM_SalaryDetails" class="method navigator-link" hash-for-method="salary">salary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete" class="method navigator-link" hash-for-method="specifichdaydelete">specifichdaydelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.hrm.testscripts.TC004_PIM_WorkExperienceDetails" class="method navigator-link" hash-for-method="work">work</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="holiday">
+                  </a> <!-- holiday -->
+                  <span class="method-name">holiday</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Date is in use. Choose another date: 
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TNR&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af7399db-ffe4-458c-b220-b541783228e4, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0, moz:accessibilityChecks: false, moz:buildID: 20221010110315, moz:debuggerAddress: 127.0.0.1:50441, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27784, moz:profile: C:\Users\TNR\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50441/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7399db-ffe4-458c-b220-b541783228e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)
+	at com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)
+	at com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)
+... Removed 24 stack frames<br/> org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Date is in use. Choose another date: 
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TNR&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af7399db-ffe4-458c-b220-b541783228e4, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0, moz:accessibilityChecks: false, moz:buildID: 20221010110315, moz:debuggerAddress: 127.0.0.1:50441, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27784, moz:profile: C:\Users\TNR\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50441/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af7399db-ffe4-458c-b220-b541783228e4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)
+	at com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)
+	at com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)<br>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)<br>org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:1141)<br>com.hrm.Pages.LEAVE_DefineDayOff_SpecificHolidayPage.specialholiday(LEAVE_DefineDayOff_SpecificHolidayPage.java:55)<br>com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday.holiday(TC012_LEAVE_DefDay_SpecHolday.java:18)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.base/java.lang.reflect.Method.invoke(Method.java:568)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC018_Leave_Leavelist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leavelist">
+                  </a> <!-- leavelist -->
+                  <span class="method-name">leavelist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leaveadd">
+                  </a> <!-- leaveadd -->
+                  <span class="method-name">leaveadd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leave">
+                  </a> <!-- leave -->
+                  <span class="method-name">leave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC004_PIM_WorkExperienceDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="work">
+                  </a> <!-- work -->
+                  <span class="method-name">work</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dayoff">
+                  </a> <!-- dayoff -->
+                  <span class="method-name">dayoff</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC017_LEAVE_LeaveAssign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leaveassign">
+                  </a> <!-- leaveassign -->
+                  <span class="method-name">leaveassign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="periodDetailsreset">
+                  </a> <!-- periodDetailsreset -->
+                  <span class="method-name">periodDetailsreset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC008_PIM_AllOptions_EmpList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="options">
+                  </a> <!-- options -->
+                  <span class="method-name">options</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC001_PIM_AddEmpDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add">
+                  </a> <!-- add -->
+                  <span class="method-name">add</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC005_PIM_Delete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteemp">
+                  </a> <!-- deleteemp -->
+                  <span class="method-name">deleteemp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC010_PIM_Job_EmpList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="job">
+                  </a> <!-- job -->
+                  <span class="method-name">job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC003_PIM_SalaryDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="salary">
+                  </a> <!-- salary -->
+                  <span class="method-name">salary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC019_LEAVE_LeaveListReset</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listreset">
+                  </a> <!-- listreset -->
+                  <span class="method-name">listreset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC006_PIM_EmpList_Resetemp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="resetemp">
+                  </a> <!-- resetemp -->
+                  <span class="method-name">resetemp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC002_PIM_Education</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="education">
+                  </a> <!-- education -->
+                  <span class="method-name">education</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal">
+                  </a> <!-- personal -->
+                  <span class="method-name">personal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC007_PIM_AllLinks_EmpList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="links">
+                  </a> <!-- links -->
+                  <span class="method-name">links</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leavedelete">
+                  </a> <!-- leavedelete -->
+                  <span class="method-name">leavedelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="specifichdaydelete">
+                  </a> <!-- specifichdaydelete -->
+                  <span class="method-name">specifichdaydelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="payperiodadd">
+                  </a> <!-- payperiodadd -->
+                  <span class="method-name">payperiodadd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\TNR1\POM_FrameWork\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot;&gt;
+  &lt;test name=&quot;Regression1&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.hrm.testscripts&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC001_PIM_AddEmpDetails&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC002_PIM_Education&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC003_PIM_SalaryDetails&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC004_PIM_WorkExperienceDetails&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC005_PIM_Delete&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC006_PIM_EmpList_Resetemp&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC007_PIM_AllLinks_EmpList&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC008_PIM_AllOptions_EmpList&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC010_PIM_Job_EmpList&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC017_LEAVE_LeaveAssign&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC018_Leave_Leavelist&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC019_LEAVE_LeaveListReset&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod&quot;/&gt;
+      &lt;class name=&quot;com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression1 (21 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'personal')
+data.setCell(0, 2, 'com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList')
+data.setCell(0, 3, 53799);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'job')
+data.setCell(1, 2, 'com.hrm.testscripts.TC010_PIM_Job_EmpList')
+data.setCell(1, 3, 52618);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'work')
+data.setCell(2, 2, 'com.hrm.testscripts.TC004_PIM_WorkExperienceDetails')
+data.setCell(2, 3, 45155);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'leaveassign')
+data.setCell(3, 2, 'com.hrm.testscripts.TC017_LEAVE_LeaveAssign')
+data.setCell(3, 3, 43003);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'education')
+data.setCell(4, 2, 'com.hrm.testscripts.TC002_PIM_Education')
+data.setCell(4, 3, 42867);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'salary')
+data.setCell(5, 2, 'com.hrm.testscripts.TC003_PIM_SalaryDetails')
+data.setCell(5, 3, 39088);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteemp')
+data.setCell(6, 2, 'com.hrm.testscripts.TC005_PIM_Delete')
+data.setCell(6, 3, 36231);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'leavelist')
+data.setCell(7, 2, 'com.hrm.testscripts.TC018_Leave_Leavelist')
+data.setCell(7, 3, 36047);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'holiday')
+data.setCell(8, 2, 'com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday')
+data.setCell(8, 3, 35754);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'leave')
+data.setCell(9, 2, 'com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary')
+data.setCell(9, 3, 33459);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'listreset')
+data.setCell(10, 2, 'com.hrm.testscripts.TC019_LEAVE_LeaveListReset')
+data.setCell(10, 3, 32717);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'periodDetailsreset')
+data.setCell(11, 2, 'com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset')
+data.setCell(11, 3, 31771);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'payperiodadd')
+data.setCell(12, 2, 'com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod')
+data.setCell(12, 3, 31253);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'specifichdaydelete')
+data.setCell(13, 2, 'com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete')
+data.setCell(13, 3, 28722);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'leavedelete')
+data.setCell(14, 2, 'com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete')
+data.setCell(14, 3, 28300);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'add')
+data.setCell(15, 2, 'com.hrm.testscripts.TC001_PIM_AddEmpDetails')
+data.setCell(15, 3, 28130);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'leaveadd')
+data.setCell(16, 2, 'com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added')
+data.setCell(16, 3, 26872);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'resetemp')
+data.setCell(17, 2, 'com.hrm.testscripts.TC006_PIM_EmpList_Resetemp')
+data.setCell(17, 3, 22303);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'links')
+data.setCell(18, 2, 'com.hrm.testscripts.TC007_PIM_AllLinks_EmpList')
+data.setCell(18, 3, 20830);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'dayoff')
+data.setCell(19, 2, 'com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff')
+data.setCell(19, 3, 18653);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'options')
+data.setCell(20, 2, 'com.hrm.testscripts.TC008_PIM_AllOptions_EmpList')
+data.setCell(20, 3, 15425);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">leavedelete</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Title matched</span>
+                <span class="reporter-method-output">Do you want to delete?</span>
+                <span class="reporter-method-output">LeaveType Record Deleted</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">periodDetailsreset</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Pay Period Details Cleared</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">payperiodadd</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Pay Period Details Added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">leave</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Title matched</span>
+                <span class="reporter-method-output">Year 2022 selected</span>
+                <span class="reporter-method-output">All Employees Selected</span>
+                <span class="reporter-method-output">All Selected</span>
+                <span class="reporter-method-output">Employee Leave status Page displayed</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">leavelist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Leave List Displayed</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dayoff</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Title matched</span>
+                <span class="reporter-method-output">DayOff Page Opened-The total number of applied leave should be zero to change the weekends Message is Displayed</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">add</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteemp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Emp Records Deleted</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">education</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Education details added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">specifichdaydelete</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Do you want to delete?</span>
+                <span class="reporter-method-output">Specific Holiday Record Delete</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">links</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Here all Links:</span>
+                <span class="reporter-method-output">2-javascript:chgPage(2);</span>
+                <span class="reporter-method-output">3-javascript:chgPage(3);</span>
+                <span class="reporter-method-output">4-javascript:chgPage(4);</span>
+                <span class="reporter-method-output">5-javascript:chgPage(5);</span>
+                <span class="reporter-method-output">6-javascript:chgPage(6);</span>
+                <span class="reporter-method-output">Next-javascript:nextPage();</span>
+                <span class="reporter-method-output">Last-javascript:chgPage(72);</span>
+                <span class="reporter-method-output">Employee Id-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">Employee Name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">Job Title-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">Employment status-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">Sub-Division-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">Supervisor-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?reqcode=EMP&VIEW=MAIN&sortField=0&sortOrder0=ASC&VIEW=MAIN#</span>
+                <span class="reporter-method-output">priya jyoti-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1031&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">suresh selenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Sameer Kapse-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Abhishek Dongre-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1000&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">saroja t-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Car Kia-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1001&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Lenovo Laptop-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Water Bottle-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1002&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenum naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Naidu-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Ramesh sahoo-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1003&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Reddy Nagireddy-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">seleniummasthan shaik Masthanselenium-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">naresh it-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">rakesh kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Noushad ali-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1004&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium Abhi-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">cfgjvj kumfytf-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">Rakeshr kumar-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">lapata gumnaam ganj-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">ijn uhb plm-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">selenium suresh-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1005&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">first name last name-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">vinay kumar vancha-http://183.82.103.245/nareshit/lib/controllers/CentralController.php?menu_no_top=hr&id=1006&capturemode=updatemode&reqcode=EMP&currentPage=1</span>
+                <span class="reporter-method-output">All Links Restored</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">resetemp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Emp Details Search Cleared</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">personal</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Personal Details Added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">salary</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Salary details saved</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">work</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Work Experience Details added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">options</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">-Select-</span>
+                <span class="reporter-method-output">Emp. ID</span>
+                <span class="reporter-method-output">Emp. First Name</span>
+                <span class="reporter-method-output">Emp. Last Name</span>
+                <span class="reporter-method-output">Emp. Middle Name</span>
+                <span class="reporter-method-output">Job Title</span>
+                <span class="reporter-method-output">Employment status</span>
+                <span class="reporter-method-output">Sub-Division</span>
+                <span class="reporter-method-output">Supervisor</span>
+                <span class="reporter-method-output">All options Retrieved</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">leaveassign</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Title matched</span>
+                <span class="reporter-method-output">Half day Leave selected</span>
+                <span class="reporter-method-output">Please correct the following
+
+ - Invalid Date Range
+</span>
+                <span class="reporter-method-output">Leave assigned</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">job</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Title is not matched :OrangeHRM - New Level of HR Management</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Employee Details added</span>
+                <span class="reporter-method-output">Software Tester Selected</span>
+                <span class="reporter-method-output">Software Selected</span>
+                <span class="reporter-method-output">NareshIT selected</span>
+                <span class="reporter-method-output">Job Details Added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">leaveadd</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Leave Type Added</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">listreset</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Entered  Data Cleared</span>
+                <span class="reporter-method-output">Logout completed</span>
+                <span class="reporter-method-output">Application Closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">holiday</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Opened</span>
+                <span class="reporter-method-output">Login Completed</span>
+                <span class="reporter-method-output">Title matched</span>
+                <span class="reporter-method-output">Full Day selected</span>
+                <span class="reporter-method-output">Specific Holiday Date Created</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC001_PIM_AddEmpDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC002_PIM_Education</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">education</span>
+                <span class="method-start">28132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC003_PIM_SalaryDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">salary</span>
+                <span class="method-start">70999 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC004_PIM_WorkExperienceDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">work</span>
+                <span class="method-start">110088 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC005_PIM_Delete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteemp</span>
+                <span class="method-start">155245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC006_PIM_EmpList_Resetemp</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">resetemp</span>
+                <span class="method-start">191476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC007_PIM_AllLinks_EmpList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">links</span>
+                <span class="method-start">213782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC008_PIM_AllOptions_EmpList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">options</span>
+                <span class="method-start">234615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC009_PIM_PersonalDetails_EmpList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">personal</span>
+                <span class="method-start">250041 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC010_PIM_Job_EmpList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">job</span>
+                <span class="method-start">303843 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC011_LEAVE_leavesumm_EmpLeaveSummary</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leave</span>
+                <span class="method-start">356463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC012_LEAVE_DefDay_SpecHolday</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">holiday</span>
+                <span class="method-start">389924 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC013_LEAVE_DefineDay_SpcHdayDelete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">specifichdaydelete</span>
+                <span class="method-start">425688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC014_LEAVE_DefineDayoff_DayOff</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dayoff</span>
+                <span class="method-start">454410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC015_LEAVE_DefineLeavetype_Added</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leaveadd</span>
+                <span class="method-start">473066 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC016_LEAVE_LeaveType_Delete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leavedelete</span>
+                <span class="method-start">499938 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC017_LEAVE_LeaveAssign</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leaveassign</span>
+                <span class="method-start">528240 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC018_Leave_Leavelist</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">leavelist</span>
+                <span class="method-start">571245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC019_LEAVE_LeaveListReset</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">listreset</span>
+                <span class="method-start">607294 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC020_BENEFITS_Payschedule_Payperiod</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">payperiodadd</span>
+                <span class="method-start">640014 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.testscripts.TC021_BENEFITS_PayrollSchedule_AddPperiodReset</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">periodDetailsreset</span>
+                <span class="method-start">671269 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
